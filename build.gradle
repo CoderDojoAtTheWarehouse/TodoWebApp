@@ -1,4 +1,4 @@
-group 'com.btmatthews.todo'
+group 'com.coderdojowarehouse.todo'
 version '1.0.0-SNAPSHOT'
 
 apply plugin: 'groovy'
@@ -13,19 +13,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.codehaus.groovy:groovy-all:2.3.11'
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-}
-group 'com.coderdojowarehouse.todo'
-version '1.0.0-SNAPSHOT'
-
-apply plugin: 'war'
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
     compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
