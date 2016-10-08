@@ -9,7 +9,7 @@
       final List<TodoItem> items = (List<TodoItem>)request.getAttribute("items");
       for (final TodoItem item: items) {
     %>
-        <blockquote>account name: <%= item.getDescription() %></blockquote>
+        <blockquote><%= item.getDescription() %></blockquote>
     <%
       }
     %>
