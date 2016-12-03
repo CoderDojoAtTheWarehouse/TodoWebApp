@@ -59,6 +59,7 @@ public class TodoServlet extends HttpServlet {
             item = new TodoItem();
             item.setDescription("Do your homework");
             items.add(item);
+            session.setAttribute("items", items);
         }
         return items;
     }
