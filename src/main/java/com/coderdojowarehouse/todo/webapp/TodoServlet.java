@@ -25,7 +25,7 @@ public class TodoServlet extends HttpServlet {
 
         // 5. Create a item with the description and add it to the item list
 
-        // 6. Use a RequestDispatcher to redirect (instead of forward) to the list.jsp page
+        // 6. Use a sendRedirect to redirect to the list.jsp page
     }
 
     @Override
