@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Todo List</title>
+    <title>Add Item</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.min.js"></script>
@@ -14,7 +14,7 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-        <h1>Todo List</h1>
+        <h1>Add Item</h1>
       </div>
     </div>
     <div class="container">
