@@ -1,4 +1,4 @@
-package com.coderdojowarehouse.todo;
+package com.coderdojowarehouse.todo.domain;
 
 import java.time.LocalDate;
 
