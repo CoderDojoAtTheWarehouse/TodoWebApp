@@ -33,6 +33,9 @@ public class TodoServlet extends HttpServlet {
                          final HttpServletResponse response)
             throws ServletException, IOException {
 
+        response.setHeader("Cache-Control", "private, no-store, no-cache, must-revalidate");
+        response.setHeader("Pragma", "no-cache");
+
         final String action = request.getParameter("action");
         if (action == null || action.equals("list")) {
 
